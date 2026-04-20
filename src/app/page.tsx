@@ -7,6 +7,7 @@ import Footer       from "@/components/layout/Footer";
 import Link         from "next/link";
 import { MARQUEE_HOME } from "@/lib/constants";
 
+
 export default function HomePage() {
   return (
     <>
