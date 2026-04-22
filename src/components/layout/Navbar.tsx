@@ -60,7 +60,7 @@ export default function Navbar() {
 				</Link>
 
 				{/* Desktop Links */}
-				<ul className="hidden md:flex gap-10 list-none items-center">
+				<ul className="hidden md:flex text-white gap-10 list-none items-center">
 					{BASE_LINKS.map(l => (
 						<li key={l.href}>
 							<Link href={l.href} className={linkCls(l.href)}>
